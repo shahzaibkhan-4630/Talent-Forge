@@ -32,7 +32,13 @@ const Aimockinterview = () => {
             <h1 className='text-2xl font-semibold mt-1 mb-1'>Custom Interview</h1>
             <p className='text-justify'>Tailor your interview preparation with personalized sessions using our AI-powered interviewer.
               Practice face-to-face interviews through your webcam to focus on specific skills and scenarios.</p>
-            <button className='w-full bg-white text-black py-[7px] my-4 rounded-lg text-lg font-normal hover:bg-opacity-80 transition-colors duration-300'>Start Custom Interview</button>
+            {/* <button className='w-full bg-white text-black py-[7px] my-4 rounded-lg text-lg font-normal hover:bg-opacity-80 transition-colors duration-300'>Start Custom Interview</button> */}
+            <select className='w-full bg-white text-black py-[7px] my-4 rounded-lg text-lg font-normal hover:bg-opacity-80 transition-colors duration-300 px-2'> 
+              <option className='bg-[#181818] text-white' value="">Software Engineering</option>
+              <option className='bg-[#181818] text-white' value="">Front End Development</option>
+              <option className='bg-[#181818] text-white' value="">Backend Development</option>
+              <option className='bg-[#181818] text-white' value="">Full Stack Development</option>
+            </select>
           </div>
         </div>
       </div>
